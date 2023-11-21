@@ -14,3 +14,6 @@ ust_limit = Q3 + 1.5 * IQR_value
 
 data_set_outlier_filtrelenmis = data_set[(data_set.boy > alt_limit) & (data_set.boy < ust_limit)]
 print(data_set_outlier_filtrelenmis)
+
+print(data_set.describe())
+print(data_set_outlier_filtrelenmis.describe())
